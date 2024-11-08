@@ -10,7 +10,7 @@ namespace Tyuiu.OsadetsAA.Sprint4.Task0.V2.Lib
             {
                 if (array[i] % 2 != 0)
                 {
-                    count++;
+                    count += array[i];
                 }
             }
             return count;
