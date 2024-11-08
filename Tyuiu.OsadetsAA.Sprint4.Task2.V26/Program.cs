@@ -26,7 +26,7 @@ namespace Tyuiu.OsadetsAA.Sprint4.Task2.V26
             Random rnd = new Random();
             int len = 14;
             int[] numsArray = new int[len];
-            for (int i = 0; i < len - 1; i++) { numsArray[i] = rnd.Next(1, 8); }
+            for (int i = 0; i < len - 1; i++) { numsArray[i] = rnd.Next(1, 9); }
             int res = ds.Calculate(numsArray);
 
             Console.WriteLine("Массив: ");
